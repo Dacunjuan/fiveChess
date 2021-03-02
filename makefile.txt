@@ -1,0 +1,17 @@
+main.o: main.cpp
+	-c main.cpp -o main.o
+
+live4.o: live4.cpp
+	-c live4.cpp -o live4.o
+
+live3.o: live3.cpp
+	-c live3.cpp -o live3.o
+
+live2.o: live2.cpp
+	-c live2.cpp -o live2.o
+
+Score.o: Score.cpp
+	-c Score.cpp -o Score.o
+
+Attack.o: Attack.cpp
+	-c Attack.cpp -o Attack.o
